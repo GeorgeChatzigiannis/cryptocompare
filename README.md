@@ -3,7 +3,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Components library
 
-[Material UI](https://material-ui.com/) components have been used to display sortable table data and the currency selection.  
+[Material UI](https://material-ui.com/) components have been used to display sortable table data and the currency selection.
+
+## Notes
+
+Sorting is being handled by the material Ui table component however `price increase` column sorting will have to be reexamined.   
 
 ## Available Scripts
 
