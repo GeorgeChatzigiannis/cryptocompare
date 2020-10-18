@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+## Components library
+
+[Material UI](https://material-ui.com/) components have been used to display sortable table data and the currency selection.  
+
 ## Available Scripts
 
 In the project directory, you can run:
