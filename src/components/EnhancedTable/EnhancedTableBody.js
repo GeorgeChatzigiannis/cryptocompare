@@ -31,10 +31,12 @@ const EnhancedTableBody = (props) => {
     }))(TableRow);
 
     function descendingComparator(a, b, orderBy) {
-        if (b[orderBy] < a[orderBy]) {
+        const firstValue = /\d/.test(a) ? parseFloat(a) : a
+        const secondValue = /\d/.test(b) ? parseFloat(b) : b
+        if (secondValue[orderBy] < firstValue[orderBy]) {
             return -1;
         }
-        if (b[orderBy] > a[orderBy]) {
+        if (secondValue[orderBy] > firstValue[orderBy]) {
             return 1;
         }
         return 0;
